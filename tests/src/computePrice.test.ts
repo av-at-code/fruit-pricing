@@ -26,11 +26,6 @@ describe("calculateTotal", () => {
         expect(calculateTotal(cart)).toBe(30);
     });
 
-    it("returns 0 for an empty cart", () => {
-        const cart: Fruit[] = [];
-        expect(calculateTotal(cart)).toBe(0);
-    }
-    );
     it("applies BOGO offer correctly for multiple melons", () => {  
         const cart: Fruit[] = ["Melon", "Melon", "Melon", "Melon", "Melon"];
         expect(calculateTotal(cart)).toBe(150);

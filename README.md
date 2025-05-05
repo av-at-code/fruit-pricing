@@ -15,6 +15,7 @@ Given a list of shopping, calculate the total cost of those items.
 
 # Steps to execute
 npx tsc
+
 node dist/index.js
 
 # Steps to run test
