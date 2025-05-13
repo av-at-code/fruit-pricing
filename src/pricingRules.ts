@@ -3,7 +3,7 @@ import { Fruit, PricingRule } from "./types";
 export const pricingRules: Record<Fruit, PricingRule> = {
   Apple: {
     pricePerItem: 35,
-    offer: null,
+    offer: "buyFourGetSix",
   },
   Banana: {
     pricePerItem: 20,
